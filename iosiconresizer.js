@@ -4,7 +4,7 @@ var Jimp = require('jimp');
 var path = require('path');
 
 var inputPath = process.argv[2];
-var sizes = [29, 40, 58, 76, 80, 87, 120, 152, 167, 180];
+var sizes = [29, 40, 48, 55, 58, 76, 80, 87, 88, 120, 152, 167, 180, 172, 196];
 
 Jimp.read(inputPath).then(function (image) {
 	// Check input image is square	
