@@ -1,18 +1,18 @@
 {
-    "name": "iosiconresizer",
+	"name": "iosiconresizer",
 	"description": "Simple nodejs script to generate iOS icons for all sizes from original square image",
-    "version": "0.0.1",
+	"version": "0.0.1",
 	"license": "MIT",
-	"author": { 
-		"name": "John Pollard", 
+	"author": {
+		"name": "John Pollard",
 		"email": "johnp@bravelocation.com",
-		"url" : "http://www.bravelocation.com"
+		"url": "http://www.bravelocation.com"
 	},
-	"repository": { 
+	"repository": {
 		"type": "git",
-		 "url": "https://github.com/bravelocation/iosiconresizer.git"
-  	},
+		"url": "https://github.com/bravelocation/iosiconresizer.git"
+	},
 	"dependencies": {
 		"jimp": "^0.2.20"
-	}	
+	}
 }
