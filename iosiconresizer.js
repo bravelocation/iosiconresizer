@@ -4,7 +4,7 @@ var Jimp = require('jimp');
 var path = require('path');
 
 var inputPath = process.argv[2];
-var sizes = [20, 29, 40, 44, 48, 55, 58, 60, 76, 80, 87, 88, 100, 120, 152, 167, 180, 172, 196, 216, 1024];
+var sizes = [16, 20, 29, 32, 40, 44, 48, 55, 58, 60, 64, 76, 80, 87, 88, 100, 120, 128, 152, 167, 180, 172, 196, 216, 256, 512, 1024];
 var padding = 0
 
 if (process.argv.length > 3) {
